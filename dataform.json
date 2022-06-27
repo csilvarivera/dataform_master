@@ -1,6 +1,6 @@
 {
-    "warehouse": "bigquery",
     "defaultSchema": "dataform",
     "assertionSchema": "dataform_assertions",
-    "defaultDatabase": "120299087003"
+    "defaultDatabase": "774298971519",
+    "warehouse": "bigquery"
 }

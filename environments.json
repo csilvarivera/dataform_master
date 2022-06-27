@@ -1,9 +1,19 @@
 {
-    "environments": [
+  "environments": [
+    {
+      "name": "production",
+      "configOverride": {},
+      "gitRef": "master"
+    },
+    {
+      "name": "test_environment_1",
+      "schedules": [
         {
-            "name": "production",
-            "configOverride": {},
-            "gitRef": "master"
+          "name": "new_schedule",
+          "cron": "46 12 * * *"
         }
-    ]
+      ],
+      "gitRef": "master"
+    }
+  ]
 }
